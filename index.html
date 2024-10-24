@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial scale=1">
+        <title>CMDB</title>
+        <link rel="stylesheet" href="stylesheet.css">
+   </head>
+   <body>
+
+    <header>
+        <h1>CMDB🍿</h1> 
+    </header>
+
+    <nav>
+        <ul>
+            <li><a class="current-page" href="#">Hem</a></li>
+            <li><a href="#">Topplistan</a></li>
+            <li><a href="profile.html">Ditt CMDB</a></li>
+            
+            
+                <input type="text" placeholder="Sök efter filmer">
+                <a href="search.html">
+                    <button>Sök🔍</button>
+                </a>
+          
+
+        </ul>
+    </nav>
+
+
+            
+    <main class="clearfix">
+        <div id="mainheader">
+            <h2>
+                TOP 10-LISTAN
+            </h2>
+            <p>Välkommen till CMDB, här är de tio bästa filmerna just nu enligt våra medlemmar! Håller du inte med? Bli medlem och tyck till.</p>
+
+        </div>
+        <section class="topMovie flex-container">
+            <article>
+                   <img src="NottingHill.jpg" alt="poster för Notting Hill">
+                    <div class="topText" >
+                        <h3>Nr 1. Medlemmarnas favorit film!</h3>
+                        <h4>Notting Hill ⭐5/5</h4>
+                        <p>William Thacker äger en liten bokhandel som för en slumrande tillvaro. En dag kliver den berömda filmstjärnan Anna Scott in i hans affär - och hans liv. Efter det blir ingenting sig likt vare sig för henne eller William.</p>
+                        <div class="ratings hide-on-mobile ">
+                            <p>Detta tyckte andra:</p>
+                            <ul>
+                               <p id="reviews">"Världens bästa film!" -Anders82</p>
+                               <p  id="reviews">"Världens roligaste film!" -camillak2</p>
+                               <p  id="reviews">"Världens mysigaste film!" -stefanpalm</p>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="ratebuttons hide-on-mobile ">
+                        <p>Har du sett filmen? Betygsätt den!</p>
+                        <ul>
+                            
+                            <button id="b-1">-1</button>
+                            <button id="b1">1</button>
+                            <button id="b2">2</button>
+                            <button id="b3">3</button>
+                            <button id="b4">4</button>
+                            <button id="b5">5</button>
+                            <button id="bcheck">✓</button>
+
+                        </ul>
+                    </div>
+                    <div class="read-more-btn">
+                        <a href="details.html">
+                         <button id="rmbtn">Läs mer</button>
+                        </a>
+                    </div>
+                  
+           </article>
+        </section>
+
+        <section class="secondthird flex-container">
+            <article id="second"> 
+                <div>
+                    <img src="DevilWears.jpg" alt="poster för Devil Wears">
+                </div>
+                
+                <div id="secondthirdtext"><h4>Nr 2. Medlemmarnas andra bästa film!</h4>
+                    <h5>Devil Wears Prada ⭐4,5/5</h5>
+                    <p>Andrea Sachs har just fått ett jobb som många unga kvinnor skulle döda för. Hon har fått anställning som assistent till den legendariska och oerhört krävande modedrottningen Miranda Priestly på en av New Yorks största tidningar. Andy har egentligen siktet inställt på att bli journalist, men bestämmer sig för att först ta sig an modevärldens utmaningar.</p>
+                    <div class="ratebuttons hide-on-mobile " >
+                        <p>Har du sett filmen? Betygsätt den!</p>
+                        <ul>
+                            
+                            <button id="b-1">-1</button>
+                            <button id="b1">1</button>
+                            <button id="b2">2</button>
+                            <button id="b3">3</button>
+                            <button id="b4">4</button>
+                            <button id="b5">5</button>
+                            <button id="bcheck">✓</button>
+
+
+                        </ul>
+
+                    </div> 
+                </div>
+               
+            </article>
+            <article id="third"> 
+                <div><img src="HowToLose.jpg" alt="poster för how to lose"></div>
+                <div id="secondthirdtext"><h4>Nr 3. Medlemmarnas tredje bästa film!</h4>
+                    <h5>How to Lose a Guy in Ten Days ⭐4,3/5</h5>
+                    <p> Andie ska skriva ett reportage om hur man gör för att skrämma bort en kille, vad ska man inte göra och inte säga? Hon ska få en kille intresserad och sedan få honom att dumpa henne inom tio dagar. Ben å andra sidan, han ska göra precis tvärtom.</p>
+                    <div class="ratebuttons hide-on-mobile ">
+                        <p>Har du sett filmen? Betygsätt den!</p>
+                        <ul>
+                            
+                            <button id="b-1">-1</button>
+                            <button id="b1">1</button>
+                            <button id="b2">2</button>
+                            <button id="b3">3</button>
+                            <button id="b4">4</button>
+                            <button id="b5">5</button>
+                            <button id="bcheck">✓</button>
+
+                        </ul>
+                    </div> 
+                </div>
+                 
+            </article>
+        </section>
+
+        <section class="topten flex-container">
+            <article class="fourthtomore"> 
+                <img src="13goingon30.jpg" alt="poster för 13 foing on 30">
+                <div id="fourthtomoretext"><h5>Nr 4.</h5>
+                    <h6>⭐4,3/5</h6>
+                    <h6>13 Going on 30</h6>
+                </div>
+                <div class="hide-on-mobile rating-for-fourthtomore">
+                    
+                    <ul>
+                        
+                        <button id="b-14">-1</button>
+                        <button  id="b14">1</button>
+                        <button  id="b24">2</button>
+                        <button id="b34">3</button>
+                        <button  id="b44">4</button>
+                        <button  id="b54">5</button>
+                        <button  id="bcheck4">✓</button>
+                        
+                    </ul>
+                </div>
+            </article>
+            <article class="fourthtomore"> 
+                <img src="shestheman.jpg" alt="poster för she's the man">
+                <div id="fourthtomoretext" ><h5>Nr 5.</h5>
+                    <h6>⭐4,2/5</h6>
+                    <h6>She's the man</h6>
+                </div>
+                <div class="hide-on-mobile rating-for-fourthtomore">
+                    
+                    <ul>
+                        
+                        <button id="b-14">-1</button>
+                        <button  id="b14">1</button>
+                        <button  id="b24">2</button>
+                        <button id="b34">3</button>
+                        <button  id="b44">4</button>
+                        <button  id="b54">5</button>
+                        <button  id="bcheck4">✓</button>
+
+                    </ul>
+                </div>
+            </article>
+            <article class="fourthtomore"> 
+                <img src="acinderellastory.jpg" alt="poster för A Cinderella Story">
+                <div id="fourthtomoretext" ><h5>Nr 6.</h5>
+                    <h6>⭐4,0/5</h6>
+                    <h6> A Cinderella Story</h6>
+                    <div class="hide-on-mobile rating-for-fourthtomore">
+                        <ul>
+                            
+                            <button id="b-14">-1</button>
+                            <button  id="b14">1</button>
+                            <button  id="b24">2</button>
+                            <button id="b34">3</button>
+                            <button  id="b44">4</button>
+                            <button  id="b54">5</button>
+                            <button  id="bcheck4">✓</button>
+    
+                        </ul>
+                    </div>
+                </div>
+            </article>
+            <article class="fourthtomore"> 
+                <img src="prettywoman.jpg" alt="poster för Pretty Woman">
+                <div id="fourthtomoretext"><h5>Nr 7.</h5>
+                    <h6>⭐3,9/5</h6>
+                    <h6>Pretty Woman</h6>
+                </div>
+                <div class="hide-on-mobile rating-for-fourthtomore">
+                    <ul>
+                        
+                        <button id="b-14">-1</button>
+                        <button  id="b14">1</button>
+                        <button  id="b24">2</button>
+                        <button id="b34">3</button>
+                        <button  id="b44">4</button>
+                        <button  id="b54">5</button>
+                        <button  id="bcheck4">✓</button>
+
+                    </ul>
+                </div>
+            </article>
+        </section>
+
+        <section class="topten flex-container">
+            <article class="fourthtomore"> 
+                <img src="meangirls.jpg" alt="poster för 13 foing on 30">
+                <div id="fourthtomoretext"><h5>Nr 8.</h5>
+                    <h6>⭐3,5/5</h6>
+                    <h6>Meangirls</h6>
+                </div>
+                <div class="hide-on-mobile rating-for-fourthtomore">
+                    <ul>
+                        
+                        <button id="b-14">-1</button>
+                        <button  id="b14">1</button>
+                        <button  id="b24">2</button>
+                        <button id="b34">3</button>
+                        <button  id="b44">4</button>
+                        <button  id="b54">5</button>
+                        <button  id="bcheck4">✓</button>
+
+                    </ul>
+                </div>
+            </article>
+            <article class="fourthtomore"> 
+                <img src="clueless.jpg" alt="poster för she's the man">
+                <div id="fourthtomoretext" ><h5>Nr 9.</h5>
+                    <h6>⭐3,2/5</h6>
+                    <h6>Clueless</h6>
+                </div>
+                <div class="hide-on-mobile rating-for-fourthtomore">
+                    <ul>
+                        
+                        <button id="b-14">-1</button>
+                        <button  id="b14">1</button>
+                        <button  id="b24">2</button>
+                        <button id="b34">3</button>
+                        <button  id="b44">4</button>
+                        <button  id="b54">5</button>
+                        <button  id="bcheck4">✓</button>
+
+                    </ul>
+                </div>
+            </article>
+            <article class="fourthtomore"> 
+                <img src="theprincessdiaries.jpg" alt="poster för A Cinderella Story">
+                <div id="fourthtomoretext" ><h5>Nr 10.</h5>
+                    <h6>⭐3,0/5</h6>
+                    <h6> The Princess Diaries</h6>
+                    <div class="hide-on-mobile rating-for-fourthtomore">
+                        <ul>
+                            
+                            <button id="b-14">-1</button>
+                            <button  id="b14">1</button>
+                            <button  id="b24">2</button>
+                            <button id="b34">3</button>
+                            <button  id="b44">4</button>
+                            <button  id="b54">5</button>
+                            <button  id="bcheck4">✓</button>
+    
+                        </ul>
+                    </div>
+                </div>
+            </article>
+            <article class="fourthtomore"> 
+                <button id="more">+</button>
+                <div id="more-text">
+                    <h5>Hitta fler filmer på topplistan</h5>
+                    
+                 </div>
+            </article>
+        </section>
+
+
+
+
+
+
+
+        
+
+    </main>
+  
+
+   
+    <footer class="flex-container"> 
+        <ul>
+            <li><a  href="#">Om oss</a></li>
+            <li><a href="#">Kontakt</a></li>
+            <li><a href="#">Bli medlem</a></li>
+        </ul>
+    </footer>
+                
+   
+</body>
+
+</html>
+
+

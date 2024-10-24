@@ -1,0 +1,352 @@
+* {
+
+    box-sizing: border-box;
+    margin: 0px;
+    h1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    h2{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
+    h3{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    h4{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    h5{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    h6{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+}
+body{
+    background-color: rgb(252, 250, 237);
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20221012/pngtree-popcorn-isolated-on-white-background-big-collection-pop-corn-closeup-pop-photo-image_27103880.jpg);
+    height: 100%;
+    min-height: 100vh;
+}
+main{
+    flex-grow: 1;
+}
+header {
+    background-color:#2d3e4e;
+    height: 60px;
+    text-align: center;
+}
+header h1{
+  
+    margin: auto;
+    font-size: xx-large;
+    text-decoration: none;
+    color: white;
+}
+.current-page{
+    text-decoration: underline;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: space-between;
+}
+nav{
+    background-color:#2d3e4e;
+    height: 40px;
+  
+ 
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav li{
+   padding-left: 5%;
+   padding-right: 5%;
+   margin-top: 0;
+   justify-content: center;
+   display: flex;
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+nav form{
+    padding: 6px;
+    
+    margin-right: 16px;
+    font-size: 17px;
+}
+main{
+  
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    flex-direction: column; 
+    background-color: #2d3e4e;
+    margin:  30px 30px 30px 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-left: 180px; 
+    
+    border-radius: 30px;
+
+}
+
+#mainheader{
+    margin: 10px;
+    padding: auto;
+    width: auto;
+    text-align: center;
+    background-color:rgb(255, 193, 203);
+    border: solid;
+    border-color:rgb(229, 149, 161);
+    width: 500px;
+    border-radius: 30px;
+}
+#search-bar, select, textarea {
+    width: 400px;
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid #2d3e4e;
+    border-radius: 4px;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
+}
+#search{
+    width: 60px; 
+    height: 40px;
+    border-radius: 30px;
+}
+#mainheader h2{
+   font-size: 40px;
+   font-weight: 400;
+   color: #2d3e4e;
+
+}
+.searched-films{
+    width: 25%;
+    
+   
+    margin: 20px 20px 20px 20px;
+}
+
+.searched-single-film{
+    width: 22%;
+    background-color:rgb(255, 193, 203);
+    border: solid;
+    border-color:rgb(229, 149, 161);
+   border-radius: 5%;
+   padding: 5px;
+   margin: 6px;
+   display: flex;
+   justify-content: center; 
+   align-items: center;    
+   flex-direction: column; 
+   text-align: center;
+}
+.searched-single-film img{
+    width: 100px;
+    height: 150px;
+
+}
+.searched-single-film h5{
+    width: auto;
+}
+.filter {
+    width: 170px;
+    height: 500px; 
+    background-color: rgb(255, 193, 203);
+    color: #2d3e4e;
+    position: fixed;
+    top: 100px; 
+    left: 0;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+   
+    
+}
+.filter select{
+    width: 100%;
+    padding: 10px; 
+    border: 1px solid #2d3e4e; 
+    border-radius: 4px; 
+    background-color: white; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color: #2d3e4e;
+}
+footer{
+    background-color:#2d3e4e;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap
+    
+}
+
+footer ul{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+footer li{
+   
+   margin:0 10px;
+
+   
+}
+
+footer li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+footer form{
+    padding: 6px;
+    
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+@media (max-width: 768px) {
+    header {
+        height: auto;
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+    }
+    nav{
+        height: auto;
+    }
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+    nav li {
+        width: 100%;
+        text-align: center;
+    }
+    nav form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  
+ 
+    main{
+        margin: 20px;
+        padding: 20px;
+    }
+   
+    #mainheader{
+        width:100%;
+        padding: 15px;
+    }
+    #mainheader h2{
+        font-size: medium;
+    }
+    .searched-films{
+        width: 100%;
+        flex-direction: column;
+    }
+    .filter{
+        width: 100%;
+        position: static;
+        height: auto;
+    }    
+    
+    #search-bar{
+        width: 100%;
+    }
+       
+    
+    .searched-single-film{
+        width: 90%;
+        
+    }
+    footer{
+        height: auto;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        bottom: 0;
+    }
+    footer ul {
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+        margin-left: 50%;
+        margin-right: 50%;
+    }
+    footer li {
+       
+        width: 100%;
+        text-align: center;
+        
+    }
+  
+}
+@media (max-width: 1000px) {
+    html, body {
+        height: 100%;
+       
+        flex-direction: column;
+    }
+    .main{
+        align-items: center;
+    }
+    
+    .searched-single-film{
+        width: 45%;
+        flex: 1 1 45%;
+        
+    }
+    footer {
+        background-color: #2d3e4e;
+        height: auto;
+        padding: 5px;
+        display: grid;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        position: relative;
+        bottom: 0;
+    }
+
+    footer ul {
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+    }
+
+    footer li {
+        width: 100%;
+        text-align: center;
+    }
+
+    
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="details.css">
+    <title>CMDB Search</title>
+</head>
+
+
+<body>
+    <header>
+        <h1>CMDB🍿</h1> 
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Hem</a></li>
+            <li><a href="#">Topplistan</a></li>
+            <li><a href="profile.html">Ditt CMDB</a></li>
+
+            <form> 
+                <input type="text" placeholder="Sök efter filmer">
+                <a href="search.html">
+                    <button>Sök🔍</button>
+                </a>
+            </form>
+    
+        </ul>
+    </nav>
+    <main>
+        <div id="mainheader">
+            <h2>
+              Notting Hill
+            </h2>
+        </div>
+
+        <section class="topMovie flex-container">
+            <div class="NH-infoandpic">
+                <img class="NottingHill" src="NottingHill.jpg" alt="poster för Notting Hill">
+                <p> Genre: Romantisk komedi</p>
+                <p> Ressigör: Roger Michell</p>
+                <p> Producent: Duncan Kenworthy</p>
+                <p> Manus: Richard Kurtis</p>
+                <p> Huvudroller: Julia Roberts och Hugh Grant</p>
+                <p> Premiär: 13 maj 1999 (USA)</p>
+                <p> Land: Storbritannien</p>
+                <p> Språk: Engelska</p>
+                <p> Speltid: 119 minuter</p>
+
+            </div>
+
+
+            <div class="NH-topText">
+
+                <h4 class="hide-on-mobile">Notting Hill </h4>
+
+                <section class="rating-stars">
+                    <div class="NH-stars">
+
+                        <div class="topratingtext">
+                            <p id="total-rating">⭐5/5
+                                <p id="rating-based-on">Baserat på 10 röster</p>
+                            </p>
+                        </div>    
+                        
+                        <p id="five-stars">⭐⭐⭐⭐⭐ 10st</p>
+                        <p id="four-stars">⭐⭐⭐⭐ 0st</p>
+                        <p id="three-stars">⭐⭐⭐ 0st</p>
+                        <p id="two-stars">⭐⭐ 0st</p>
+                        <p id="one-stars">⭐ 0st</p>
+                    </div>
+
+                    <div class="NH-ratings">
+                        <ul>
+                            <p>Detta tyckte andra:</p>
+                            <p class="reviews">"Världens bästa film!" -Anders82</p>
+                            <p class="reviews">"Världens roligaste film!" -camillak2</p>
+                            <p  class="reviews">"Världens mysigaste film!" -stefanpalm</p>
+                        </ul>
+                       
+                    </div>
+
+                </section>
+
+            <div class="NH-description">
+                <h3>Handling</h3>
+                <p id="NH-text">Filmstjärnan Anna Scott (Julia Roberts) möter den frånskilde William Thacker (Hugh Grant), som driver en bokhandel specialiserad på reseguider tillsammans med biträdet Martin (James Dreyfus). Affärerna går inte riktigt så bra som han hoppats. William bor tillsammans med en inneboende från Wales vid namn Spike (Rhys Ifans) i Notting Hill i London. Mellan William och Anna uppstår äkta kärlek, men de glider ifrån varandra på grund av Annas kändispojkvän (Alec Baldwin).</p>
+                <p id="NH-text"> När William får ett meddelande från Anna att han kan komma till hennes hotell för att träffa henne har han missförstått det hela och tvingas spela rollen av en journalist för att få en intervju. Han utger sig för att skriva i "Horse and Hound" och frågar om det finns några hästar eller hundar i filmen hon håller på att spela in. Svaret är att filmen utspelar sig i rymden.</p>   
+                <p id="NH-text"> William kan ändå inte sluta tänka på Anna. Kan det någonsin bli de två igen, trots att de kommer från två skilda världar? Han får hjälp och stöd av sina goda vänner, som visserligen försöker att hitta en annan kärlek åt honom, men sedan rycker ut med full styrka när han får chansen att träffa Anna igen.</p>
+            </div> 
+        </section>
+        <div class="write-review">
+            <h2>Berätta vad du tycker om filmen</h2>
+          <form>
+            <label for="movie-name">Titel</label>
+            <input type="text" id="movie-name" name="movie-name" placeholder="Titanic">
+            <br/>
+            <label for="user-name">Användarnamn</label>
+            <input type="text" id="user-name" name="user-name" placeholder="filmlover1">
+            <br/>
+            <label for="your-review">Din recension</label>
+            <input type="text" id="your-review" name="your-review" placeholder="Fri text">
+            <br/>
+            <label for="rate-movie">Betygsätt filmen</label>
+            <div class="NH-ratebuttons">
+                
+                <ul>
+                    
+                    <button id="b-1">-1</button>
+                    <button id="b1">1</button>
+                    <button id="b2">2</button>
+                    <button id="b3">3</button>
+                    <button id="b4">4</button>
+                    <button id="b5">5</button>
+                    
+
+                </ul>
+                
+            </div>
+            <button id="send">Skicka in recension</button>
+          </form>
+        </div>    
+    </main>
+    <footer class="flex-container"> 
+        <ul>
+            <li><a  href="#">Om oss</a></li>
+            <li><a href="#">Kontakt</a></li>
+            <li><a href="#">Bli medlem</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
+
+    
+                        

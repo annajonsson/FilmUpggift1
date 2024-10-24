@@ -1,0 +1,768 @@
+* {
+
+    box-sizing: border-box;
+    margin: 0px;
+    h1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    h2{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
+    h3{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    h4{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    h5{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    h6{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+}
+body{
+    background-color: rgb(252, 250, 237);
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20221012/pngtree-popcorn-isolated-on-white-background-big-collection-pop-corn-closeup-pop-photo-image_27103880.jpg);
+    background-image: opacity=50%;
+}
+header {
+    background-color:#2d3e4e;
+    height: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+  
+    margin: auto;
+    font-size: xx-large;
+    text-decoration: none;
+    color: white;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+nav{
+    background-color:#2d3e4e;
+    height: 40px;
+    margin: 0;
+    padding: 0%;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav li{
+   padding-left: 5%;
+   padding-right: 5%;
+   margin-top: 0;
+   justify-content: center;
+   display: flex;
+}
+nav li:hover{
+   
+    top: -3px;
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+nav form{
+    padding: 6px;
+    
+    margin-right: 16px;
+    font-size: 17px;
+}
+main{
+    
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    flex-direction: column; 
+    background-color: #2d3e4e;
+    margin:  30px 30px 30px 30px;
+    padding-bottom: 30px;
+    padding-top: 40px;
+
+    
+    border-radius: 30px;
+
+}
+
+#mainheader{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color:rgb(255, 193, 203);
+    border: solid;
+    border-color:rgb(229, 149, 161);
+    width: 500px;
+    border-radius: 30px;
+}
+
+#mainheader h2{
+   font-size: 40px;
+   font-weight: 400;
+   color: #2d3e4e;
+
+}
+.topMovie{
+    margin: 25px;
+    background-color:rgb(255, 193, 203);
+    border: solid;
+    border-color:rgb(229, 149, 161);
+   padding: 10px;
+    justify-items: center;
+    border-radius: 30px;
+    
+}
+.topMovie article{
+    width: auto;
+    padding: 10px;
+}
+.topText{
+    flex-direction: column;
+    color: #2d3e4e;
+  
+    
+    h3{
+        padding-bottom: 3%;
+        font-size: xx-large;
+        font-weight: 1000;
+        margin-bottom: 10px;
+       
+    
+    
+    }
+    font-size: larger;
+    h4{
+      margin-bottom: 15px;
+        font-size: xx-large;
+        font-weight: 500;
+        
+
+    }
+    float: inline-end;
+    /* float: right; */
+    width: 70%;
+}
+.topMovie img{
+    width: 300px;
+    height: 350px;
+    float: left;
+    
+}
+.NH-infoandpic{
+    height: 750px;
+    float: inline-start;
+    background-color: lightpink;
+    border: solid;
+    border-color: #2d3e4e;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 5px;
+   align-items: center;
+
+
+}
+.NH-infoandpic p{
+    padding: 6px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color:rgb(254, 217, 222);
+    color:  #2d3e4e;;
+    font-weight: bold;
+    
+}
+.ratings{
+    margin-top: 10px;
+    font-size: medium;   
+
+}
+.ratings ul{
+   display: flex;
+}
+
+.rating-stars{
+   display: flex;
+   
+}
+.rating-stars p{
+    color: white;
+    margin: 5px;
+    
+}   
+.NH-stars{
+    width: 250px;
+    height: 210px;
+   margin: 10px 10px 30px 10px;
+   margin-bottom: 30px;
+   background-color: #2d3e4e;
+   border-radius: 25px;
+}
+.NH-ratings{
+    display: flex;
+    float: inline-end;
+    padding-left: 50px;
+    padding-right: 50px;
+
+} 
+.NH-ratings p{
+    color: #2d3e4e;
+}
+.NH-topText{
+    flex-direction: column;
+    color: #2d3e4e;
+    font-size: larger;
+    float: right;
+    /* float: right; */
+    width: 67%;
+    margin: 10px;
+
+}
+    
+#rating-based-on{
+    font-size: 10px;
+    
+}
+.topratingtext{
+    display: flex;
+
+}
+
+.NH-ratings{
+    float: right;
+}
+#total-rating{
+    font-size: x-large;
+}
+.NH-description{
+    background-color:  rgb(254, 217, 222);
+    border-radius: 5px;
+    border: solid;
+    border-width: 1px;
+    border-color: #2d3e4e;
+    padding: 10px;
+    margin: 10px;
+    float: right;
+}
+.NH-description h3{
+    padding: 5px;
+    margin: 15px;
+    font-size: x-large;
+}
+#NH-text{
+    margin: 8px;
+    padding: 5px;
+    font-weight:500;
+    
+}
+
+
+.reviews{
+    background-color: white;
+    margin: 10px;
+    border-radius: 30px;
+    border: solid;
+    border-color: #2d3e4e;
+    border-width: 1px;
+    padding: 10px;
+    font-style: italic;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    
+
+
+}
+.write-review{
+  
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 30px;
+    padding: 20px;
+    background-color:rgb(255, 193, 203);
+    border: 2px solid rgb(229, 149, 161);
+    align-content: center;
+}
+.write-review h2{
+    color: #2d3e4e;
+    padding: 10px;
+}
+#movie-name, select, textarea{
+    width: 50%;
+    margin: 10px;
+    margin-left: 85px;
+    padding: 15px;
+    border: 2px solid #2d3e4e;
+    border-radius: 4px;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#user-name, select, textarea {
+    width: 50%;
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid #2d3e4e;
+    border-radius: 4px;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
+}
+#your-review, select, textarea{
+    width: 50%;
+    height: 100px;
+    margin: 10px;
+    margin-left: 20px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 4px;
+    
+    background-color: white;
+}    
+
+label {
+    cursor: default;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#send{
+    width: 100px;
+    height: 45px;
+    border-radius: 40px;
+    background-color: white;
+    float:inline-end
+
+}
+.NH-ratebuttons{
+    margin: 5px;
+}
+.ratebuttons{
+    
+    float: inline-start;
+    align-items: center;
+    margin-top: 10px;
+    
+    
+}
+.ratebuttons p{
+ margin-left: 39px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+
+
+
+#b-1{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 10%;
+    active { 
+        transform: scale(0.98); 
+        /* Scaling button to 0.98 to its original size */ 
+        box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
+        /* Lowering the shadow */ 
+    } 
+}
+#b1{
+    width: 30px;
+    height: 30px;
+    background-color: orangered;
+    border-radius: 10%;
+}
+#b2{
+    width: 30px;
+    height: 30px;
+    background-color: orange;
+    border-radius: 10%;
+}
+#b3{
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 10%;
+}
+#b4{
+    width: 30px;
+    height: 30px;
+    background-color: yellowgreen;
+    border-radius: 10%;
+}
+#b5{
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    border-radius: 10%;
+}
+#bcheck{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(5, 76, 5);
+    border-radius: 10%;
+}
+footer{
+    background-color:#2d3e4e;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap
+}
+
+footer ul{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+footer li{
+   
+   margin:0 10px;
+   
+   
+}
+
+footer li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+footer form{
+    padding: 6px;
+    
+    margin-right: 16px;
+    font-size: 17px;
+}
+   
+
+@media (max-width: 768px) {
+    header {
+        height: auto;
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+    }
+    nav{
+        height: auto;
+    }
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+    nav li {
+       
+        width: 100%;
+        text-align: center;
+    }
+    nav form {
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
+        
+       
+    }
+   
+    main {
+        margin: 10px;
+        padding: 15px;
+        flex-direction: column;
+        align-items: center;
+    }
+    #mainheader {
+        width: 100%; 
+        padding: 15px;
+    }
+    #mainheader h2 {
+        font-size: 28px; 
+    }
+    .topMovie {
+        margin: 15px;
+        width: 100%;
+        padding: 15px;
+        flex-direction: column;
+    }
+    .topMovie img {
+        width:100%; 
+        height: auto;
+        float: none; 
+    }
+    .topText {
+        width: 100%; 
+        font-size: medium;
+        text-align: center;
+        
+    }
+    .NH-infoandpic{
+        width: 100%;
+       
+        margin: 10px auto;
+        height: auto;
+    }
+    .NH-infoandpic p{
+        font-size: smaller;
+    }
+    .NH-description{
+        width: 130%; 
+        float: none;
+    }
+    .NH-topText{
+        max-width: 100%;
+    }
+    .NH-stars{
+        height: auto;
+        
+    }
+    .NH-ratings{
+        flex-direction: column;
+       
+       float: none;
+    }
+    .reviews{
+        max-width: 200%; 
+     text-align: center; 
+     padding: 15px;
+     margin: 10px; 
+        
+    }
+    .reviews p{
+        font-size: 0.9em;
+    }
+    .NH-ratings ul{
+        width: 100%;
+    }
+    .rating-stars{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        
+    }
+    .topratingtext {
+        flex-direction: column;
+        text-align: center;
+    }
+    .write-review{
+        display: felx;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+  #movie-name{
+    margin-left: 0px;
+    width: 100%;
+
+  }
+  #user-name{
+    margin-left: 0px;
+    width: 100%;
+
+
+  }
+  #your-review{
+    margin-left: 0px;
+    width: 100%;
+  }
+  .NH-ratebuttons{
+    margin-left: 0px;
+    width: 120%;
+  
+  }
+    .hide-on-mobile {
+        display: none;
+    }
+    footer{
+        height: auto;
+        padding: 5px;
+        flex-direction: column;
+    }
+    footer ul {
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+        margin-left: 50%;
+        margin-right: 50%;
+    }
+    footer li {
+       
+        width: 100%;
+        text-align: center;
+        
+    }
+}
+   
+@media (max-width: 1000px) {   
+
+    header {
+        height: auto;
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+    }
+    nav{
+        height: auto;
+    }
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+    nav li {
+       
+        width: 100%;
+        text-align: center;
+    }
+    nav form {
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
+        
+       
+    }
+   
+    main {
+        margin: 10px;
+        padding: 15px;
+        flex-direction: column;
+        align-items: center;
+    }
+    #mainheader {
+        width: 100%; 
+        padding: 15px;
+    }
+    #mainheader h2 {
+        font-size: 28px; 
+    }
+    .topMovie {
+        margin: 15px;
+        width: 100%;
+        padding: 15px;
+        flex-direction: column;
+    }
+    .topMovie img {
+        width:100%; 
+        height: 75%;
+        float: none; 
+    }
+    .topText {
+        width: 100%; 
+        font-size: medium;
+        text-align: center;
+        
+    }
+    .NH-infoandpic{
+        width: 100%;
+       
+        margin: 10px auto;
+        height: auto;
+    }
+    .NH-infoandpic p{
+        font-size: smaller;
+    }
+    .NH-description{
+        width: 130%; 
+        float: none;
+    }
+    .NH-topText{
+        max-width: 100%;
+    }
+    .NH-stars{
+        height: auto;
+        width: 100%;
+    }
+   
+    .reviews{
+     max-width: 100%; 
+     text-align: center; 
+     padding: 15px;
+     margin: 10px; 
+        
+    }
+    .reviews p{
+        font-size: 0.9em;
+    }
+    .NH-ratings{
+        width: 100%;
+    }
+    .NH-ratings ul{
+        width: 100%;
+    }
+    .rating-stars{
+        flex: 1 1 50%;
+        align-items: center;
+        
+    }
+    .topratingtext {
+        flex-direction: column;
+        text-align: center;
+    }
+    .write-review{
+        display: felx;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+  #movie-name{
+    margin-left: 0px;
+    width: 100%;
+
+  }
+  #user-name{
+    margin-left: 0px;
+    width: 100%;
+
+
+  }
+  #your-review{
+    margin-left: 0px;
+    width: 100%;
+  }
+  .NH-ratebuttons{
+    margin-left: 0px;
+    width: 120%;
+  
+  }
+    .hide-on-mobile {
+        display: none;
+    }
+    footer{
+        height: auto;
+        padding: 5px;
+        flex-direction: column;
+    }
+    footer ul {
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+        margin-left: 50%;
+        margin-right: 50%;
+    }
+    footer li {
+       
+        width: 100%;
+        text-align: center;
+        
+    }
+}
+    
+   
+   
+    

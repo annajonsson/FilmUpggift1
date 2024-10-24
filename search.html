@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="search.css">
+    <title>CMDB Search</title>
+</head>
+
+
+<body>
+    <header>
+        <h1>CMDB🍿</h1> 
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Hem</a></li>
+            <li><a href="#">Topplistan</a></li>
+            <li><a href="profile.html">Ditt CMDB</a></li>
+
+        </ul>
+    </nav>
+    <main>
+        <div id="mainheader">
+            <form> 
+                <input type="text" id="search-bar" placeholder="Harry Potter">
+                <button id="search">Sök</button>
+            </form>
+        </div>
+        <aside class="filter">
+            <h2>Filtrera sökning</h2>
+            <br/>
+            <label for="dd-genre">Genre</label>
+            <select id="dd-genre" name="dd-genre">
+                <option>Action</option>
+                <option>För barn</option>
+                <option>Deckare</option>
+                <option>Dokumentär</option>
+                <option>Drama</option>
+                <option>Komedi</option>
+                <option>Musikalfilm</option>
+                <option>Romantisk Komedi</option>
+                <option>Skräck</option>
+            </select>
+            <br/>
+            <label for="dd-film-or-series">Film/Serie</label>
+            <select id="dd-film-or-series" name="dd-film-or-series">
+                <option>Film</option>
+                <option>Serie</option>
+            </select>
+            <br/>
+            <label for="dd-rating">Betyg</label>
+            <select id="dd-rating" name="dd-rating">
+                <option>-1</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+    
+            </select>
+            <br/>
+            <label for="dd-year">Utgivningsår</label>
+            <select id="dd-year" name="dd-year">
+                <option>1900 eller tidigare</option>
+                <option>1910-1920</option>
+                <option>1920-1930</option>
+                <option>1930-1940</option>
+                <option>1940-1950</option>
+                <option>1950-1960</option>
+                <option>1960-1970</option>
+                <option>1970-1980</option>
+                <option>1980-1990</option>
+                <option>1990-2000</option>
+                <option>2000-2010</option>
+                <option>2010-2020</option>
+                <option>2020+</option>
+
+
+            </select>
+            <br/>
+        </aside>
+        <section class="serched-films flex-container">
+            <article class="searched-single-film"> 
+                <img src="harrypotter1.jpg" alt="poster för Harry Potter 1">
+                <h5>Action</h5>
+                    <h5>Harry Potter och De Vises Sten</h5>
+                    <h5>⭐4,6/5</h5>
+            </article>
+            <article class="searched-single-film"> 
+                <img src="harrypotter2.jpg" alt="poster för Harry Potter 1">
+                <h5>Action</h5>
+                    <h5>Harry Potter och Hemligheternas Kammare</h5>
+                    <h5>⭐1,6/5</h5>
+
+            </article>
+            <article class="searched-single-film"> 
+                <img src="harrypotter3.jpg" alt="poster för Harry Potter 1">
+                <h5>Action</h5>
+                    <h5>Harry Potter och Fången från Azkaban</h5>
+                    <h5>⭐2,2/5</h5>
+
+            </article>
+            <article class="searched-single-film"> 
+                <img src="harrypotter4.jpg" alt="poster för Harry Potter 1">
+                <h5>Action</h5>
+                    <h5>Harry Potter och Den Flammande Bägaren</h5>
+                    <h5>⭐4,6/5</h5>
+
+            </article>
+            <article class="searched-single-film"> 
+                <img src="harrypotter5.jpg" alt="poster för Harry Potter 1">
+                <h5>Action</h5>
+                    <h5>Harry Potter och Fenixorden</h5>
+                    <h5>⭐2,6/5</h5>
+
+            </article>
+            <article class="searched-single-film"> 
+                <img src="harrypotter6.jpg" alt="poster för Harry Potter 1">
+                <h5>Action</h5>
+                    <h5>Harry Potter och Halvblodsprinsen</h5>
+                    <h5>⭐3,1/5</h5>
+
+            </article>
+            <article class="searched-single-film"> 
+                <img src="harrypotter7.jpg" alt="poster för Harry Potter 1">
+                <h5>Action</h5>
+                    <h5>Harry Potter och Dödsrelikerna Part 1</h5>
+                    <h5>⭐3,7/5</h5>
+
+            </article>
+            <article class="searched-single-film"> 
+                <img src="harrypotter8.jpg" alt="poster för Harry Potter 1">
+                <h5>Action</h5>
+                    <h5>Harry Potter och Dödsrelikerna Part 2</h5>
+                    <h5>⭐4,2/5</h5>
+
+            </article>
+        </section>
+        
+    </main>  
+    <footer class="flex-container"> 
+        <ul>
+            <li><a  href="#">Om oss</a></li>
+            <li><a href="#">Kontakt</a></li>
+            <li><a href="#">Bli medlem</a></li>
+        </ul>
+    </footer>   
+</body>     
