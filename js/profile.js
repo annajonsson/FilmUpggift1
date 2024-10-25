@@ -474,7 +474,7 @@ function fetchingAllMedia(){
                 const starDiv = document.createElement("div")
                 starDiv.classList.add("star-div")
 
-                for (let j = 0; j <media.cmdb_score; j++) { //Helt ärligt förstår jag inte riktigt hur detta kan bli rätt, men provade mig fram och item.cmdb_score vad det som funkade. Tänker att alla bara borde ha en stjärna för en film har ett score.
+                for (let j = 0; j <media.cmdb_score; j++) { //Förstår  inte riktigt hur detta kan bli rätt, men provade mig fram och item.cmdb_score vad det som funkade. Tänker att alla bara borde ha en stjärna för en film har ett score.
                     const star = document.createElement("img")
                     star.classList.add("star")
                     star.src ="star.png"
